@@ -7,7 +7,7 @@ from pyairmore.request import AirmoreSession
 from pyairmore.services.device import DeviceService
 
 try:
-    ip = IPv4Address("192.168.137.36")
+    ip = IPv4Address("192.168.137.3")
 except Exception as e:
     print(e)
 
